@@ -1,0 +1,38 @@
+.main {
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 14px;
+}
+
+.title {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.iframe,
+.form {
+  width: 100%;
+}
+
+.iframe {
+  overflow: auto;
+  margin-bottom: 14px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 7px;
+}
+
+.form input {
+  flex: 1;
+}
+
+.form input,
+.form button {
+  height: 32px;
+  padding: 0 10px;
+}
