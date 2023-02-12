@@ -1,2 +1,38 @@
-.iframe-content {
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 7px;
+  margin-bottom: 7px;
+}
+
+.form input {
+  flex: 1;
+}
+
+.form input,
+.form button {
+  height: 32px;
+  padding: 0 10px;
+}
+
+.content {
+  overflow: auto;
+  padding: 14px;
+  height: 260px;
+  flex-grow: 1;
+  border: 1px solid;
+}
+
+.content p {
+  margin: 0 0 7px;
 }
